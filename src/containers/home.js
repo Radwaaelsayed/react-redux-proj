@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux'
 import {getPlaceInfo} from '../action/action'
 import CardModel from '../Components/card';
-import {CardColumns, Container, Row   } from 'react-bootstrap';
+import {CardColumns} from 'react-bootstrap';
 
 
 class Home extends Component {
